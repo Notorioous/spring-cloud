@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: server
+server:
+  port: 8081
+
+eureka:
+  client:
+    initial-instance-info-replication-interval-seconds: 2
+    registry-fetch-interval-seconds: 1
+ribbon:
+  ServerListRefreshInterval:1000
